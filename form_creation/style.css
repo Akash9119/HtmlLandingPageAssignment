@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   background-image: url('./istockphoto-1460853312-1024x1024.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#title {
+    color: white;
+    font-size: 50px;
+}
+
+form {
+    background-color: rgb(85, 140, 228);
+    border: 1px solid #676262;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 33%;
+    text-align: left;
+}
+
+label {
+    display: inline-block;
+    margin: 10px 0;
+    margin: 15px 5px 15px 5px;
+    font-weight: 800;
+    font-size: large;
+}
+
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+select {
+    width: 66%;
+}
+
+.submit {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.submit:hover {
+    background-color: #0056b3;
+}

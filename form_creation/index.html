@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Creation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="center" id="title">Tata Strive HTML Form</h1>
+    <div class="center">
+        <form action="get">
+            <label for="first-name">First Name:</label>
+            <input type="text" name="first-name" id="first-name"><br>
+            <label for="last-name">Last Name:</label>
+            <input type="text" name="last-name" id="last-name"><br>
+            <label for="address">Address:</label>
+            <textarea name="address" id="address" cols="30" rows="10"></textarea><br>
+            <label for="gender">Choose Gender:</label>
+            <input type="radio" name="male" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="female" id="female" value="female">
+            <label for="female">Female</label><br>
+            <label for="course">Choose a Course:</label>
+            <select id="course" name="course">
+                <option value="Java Development">Java Development</option>
+                <option value="Cyber Security">Cyber Security</option>
+                <option value="UI/UX">UI/UX</option>
+            </select><br>
+            <label for="exp-level">Choose Your Experience Level:</label>
+            <input type="checkbox" id="fresher" name="experience" value="fresher">
+            <label for="vehicle1">Fresher</label>
+            <input type="checkbox" id="experience" name="experience" value="experienced">
+            <label for="vehicle2">Experienced</label><br>
+            <input type="submit" value="Submit" class="submit">
+        </form>
+    </div>
+</body>
+
+</html>
